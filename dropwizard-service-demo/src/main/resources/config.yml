@@ -6,4 +6,8 @@ server:
     - type: http
       port: 9091
 
-template: Hello, %s!
+logging:
+  level: DEBUG
+
+template: Hello %s
+defaultName : Stranger

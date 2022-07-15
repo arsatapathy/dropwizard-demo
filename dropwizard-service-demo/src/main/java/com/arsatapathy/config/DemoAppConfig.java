@@ -18,4 +18,8 @@ public class DemoAppConfig extends Configuration {
     @JsonProperty
     private String template;
 
+    @NotEmpty
+    @JsonProperty
+    private String defaultName;
+
 }
